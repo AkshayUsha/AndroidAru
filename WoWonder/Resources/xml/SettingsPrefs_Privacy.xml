@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Privacy SECTION-->
+  <PreferenceCategory android:layout="@xml/divider"></PreferenceCategory>
+  <PreferenceCategory android:title="@string/Lbl_Privacy" >
+      
+     <!--Who can follow me ?-->
+    <ListPreference
+      android:key="whocanfollow_key"
+      android:title="@string/Lbl_Who_can_follow_me"
+      android:defaultValue="@string/Lbl_Everyone"
+      android:entries="@array/settings_CanFollow_array"
+      android:entryValues="@array/value_settings_CanFollow_array"/>
+    
+      <!--Who can message me ?-->
+    <ListPreference
+      android:key="whocanMessage_key"
+      android:title="@string/Lbl_Who_can_message_me"
+      android:defaultValue="@string/Lbl_Everyone"
+      android:entries="@array/settings_message_array"
+      android:entryValues="@array/value_settings_message_array"/>
+    
+ <!--Who can see my friends?-->
+ <ListPreference
+      android:key="whoCanSeeMyfriends_key"
+      android:title="@string/Lbl_CanSeeMyfriends"
+      android:defaultValue="@string/Lbl_Everyone"
+      android:entries="@array/settings_CanSeeMyfriends_array"
+      android:entryValues="@array/value_settings_CanSeeMyfriends_array"/>
+
+<!--Who can post on my timeline ?-->
+<ListPreference
+      android:key="whoCanPostOnMyTimeline_key"
+      android:title="@string/Lbl_CanPostOnMyTimeline"
+      android:defaultValue="@string/Lbl_Everyone"
+      android:entries="@array/settings_CanPostOnMyTimeline_array"
+      android:entryValues="@array/value_settings_CanPostOnMyTimeline_array"/>
+
+ <!--Who can see my birthday?-->
+ <ListPreference
+      android:key="whoCanSeeMyBirthday_key"
+      android:title="@string/Lbl_Who_can_see_my_birthday"
+      android:defaultValue="@string/Lbl_Everyone"
+      android:entries="@array/settings_birthday_array"
+      android:entryValues="@array/value_settings_birthday_array"/>
+
+  <!--Confirm request when someone follows you-->
+    <SwitchPreference
+      android:title="@string/Lbl_ConfirmRequestFollows"
+      android:summary="@string/Lbl_Summary_ConfirmRequestFollows"
+      android:key="ConfirmRequestFollows_key"
+      android:defaultValue="false" />
+          
+<!--Show my activities-->
+    <SwitchPreference
+      android:title="@string/Lbl_ShowMyActivities"
+      android:key="ShowMyActivities_key"
+      android:defaultValue="true" /> 
+  
+  <!--Status-->
+  <ListPreference
+      android:key="Status_key"
+      android:title="@string/Lbl_Status"
+      android:defaultValue="@string/Lbl_Online"
+      android:entries="@array/settings_Status_array"
+      android:entryValues="@array/value_settings_Status_array"/>
+
+   <!--Share my location with public-->
+    <SwitchPreference
+      android:title="@string/Lbl_ShareMyLocation"
+      android:key="ShareMyLocation_key"
+      android:defaultValue="true" /> 
+         
+  </PreferenceCategory>
+</PreferenceScreen>

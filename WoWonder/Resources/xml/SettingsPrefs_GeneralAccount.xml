@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<!--PROFILE SECTION-->
+  <PreferenceCategory android:layout="@xml/divider"></PreferenceCategory>
+  <PreferenceCategory  android:key="SectionAccount_key" >
+ 
+    <Preference
+      android:key="editprofile_key"
+      android:title="@string/Lbl_Edit_Profile_and_avatar" />
+    
+    <EditTextPreference
+      android:key="about_me_key"
+      android:title="@string/Lbl_aboutMe"
+      android:summary="@string/Lbl_DefaultAbout" />
+  
+    <Preference
+      android:key="editAccount_key"
+      android:title="@string/Lbl_My_Account" />
+    
+    <Preference
+      android:key="editSocialLinks_key"
+      android:title="@string/Lbl_SocialLinks" />
+    
+    <Preference
+      android:key="editpassword_key"
+      android:title="@string/Lbl_Password"
+      android:summary="@string/Lbl_Change_your_password" />
+    
+    <Preference
+      android:key="blocked_key"
+      android:title="@string/Lbl_BlockedUsers" />
+
+    <Preference
+     android:key="deleteaccount_key"
+      android:title="@string/Lbl_DeleteAccount" />
+ 
+  </PreferenceCategory>
+  
+  <!--GENERAL SECTION-->
+  <!--<PreferenceCategory android:layout="@xml/divider"></PreferenceCategory>-->
+  <PreferenceCategory  android:key="category_General" android:title="@string/Lbl_General" >
+    <ListPreference
+      android:key="Lang_key"
+      android:title="@string/Lbl_Language"
+      android:defaultValue="English"
+      android:entries="@array/Lang_array"
+      android:entryValues="@array/Langunicode_array"
+      android:summary="@string/Lbl_Display_your_app_Language"
+      android:icon="@drawable/ic_translation_settings"
+      android:dialogIcon="@drawable/ic_translation_settings" />
+      
+  </PreferenceCategory>
+
+</PreferenceScreen>

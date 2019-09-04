@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:id="@+id/storyDisplay">
+    <FFImageLoading.Views.ImageViewAsync
+        android:id="@+id/imagstoryDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:cropToPadding="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="-7dp"
+        android:layout_marginStart="-7dp"
+        android:paddingStart="-5dp"
+        android:background="#000000"
+        android:paddingEnd="-5dp" />
+    <VideoView xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/VideoView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_centerVertical="true"
+        tools:visibility="gone" />
+    <ProgressBar
+        android:id="@+id/loadingProgressBarview"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:indeterminate="true"
+        android:layout_centerVertical="true" />
+    <ProgressBar
+        android:id="@+id/storiesview"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="1dp"
+        android:layout_gravity="top"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="0"
+        android:visibility="visible"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp" />
+    <LinearLayout
+        android:id="@+id/storiesaboutview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99000000"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/storyaboutText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Headerview"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="false"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:background="#99000000"
+        android:layout_below="@id/storiesview">
+        <TextView
+            android:id="@+id/backicon"
+            android:layout_width="wrap_content"
+            android:text="!"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            android:layout_marginStart="15dp"
+            android:layout_gravity="center_vertical" />
+        <FFImageLoading.Views.ImageViewAsync
+            android:id="@+id/userImage"
+            android:scaleType="centerCrop"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:clickable="false"
+            android:layout_marginStart="17dp"
+            android:layout_gravity="center_vertical" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/usernameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:gravity="start"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center_vertical" />
+            <TextView
+                android:id="@+id/LastSeenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="1dp"
+                android:gravity="start"
+                android:layout_marginStart="10dp"
+                android:textSize="11dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/DeleteIcon"
+                android:layout_width="wrap_content"
+                android:text="!"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="0dp"
+                android:gravity="end"
+                android:layout_gravity="center"
+                android:layout_weight="5"
+                android:textSize="17dp"
+                android:layout_margin="5dp" />
+            <TextView
+                android:id="@+id/CountStoryText"
+                android:layout_width="2dp"
+                android:text="1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="0dp"
+                android:gravity="end"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_marginEnd="16dp"
+                android:textSize="17dp"
+                android:layout_marginStart="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

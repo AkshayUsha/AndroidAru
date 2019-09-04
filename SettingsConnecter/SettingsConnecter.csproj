@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Wo_an_cer">
+      <HintPath>..\API\Wo_an_cer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

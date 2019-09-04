@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  
+  <!--Notification SECTION-->
+  <PreferenceCategory android:layout="@xml/divider"></PreferenceCategory>
+  <PreferenceCategory android:title="@string/Lbl_Message_Notifications"  >
+    <SwitchPreference
+      android:title="@string/Lbl_Notification_Popup"
+      android:summary="@string/Lbl_Summary_notifications"
+      android:key="notifications_key"
+      android:defaultValue="true" />
+  
+  </PreferenceCategory>
+ 
+</PreferenceScreen>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        card_view:cardElevation="1dp"
+        card_view:cardCornerRadius="4dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <FFImageLoading.Views.ImageViewAsync
+                android:id="@+id/thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/thumbnail"
+                android:paddingStart="10dp"
+                android:paddingEnd="7dp"
+                android:paddingTop="10dp"
+				android:maxLines="2"
+				
+                android:textColor="#818181"
+                android:textSize="15dp"
+                android:lines="2" />
+			<TextView
+				android:id="@+id/pricetext"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="15dp"
+				android:textColor="#ffff"
+				android:layout_marginStart="5dp"
+				android:layout_marginTop="5dp"
+				android:text="555"
+				android:maxLines="1"
+					 android:lines="1"
+				android:paddingStart="4dp"
+				android:paddingEnd="4dp"
+				android:background="#f06292"
+				android:layout_centerHorizontal="false" />
+
+            <TextView
+                android:id="@+id/mappin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="#9e9e9e"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="5dp"
+			    android:text="111"
+				android:maxLines="1"
+					 android:lines="1"
+                android:layout_below="@id/titleTextView" />
+		
+            <TextView
+                android:id="@+id/LocationText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#9e9e9e"
+                android:layout_below="@id/titleTextView"
+                android:layout_toEndOf="@id/mappin"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="5dp"
+				android:maxLines="1"
+					 android:lines="1"
+                android:textSize="13dp" />
+			   
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/view"
+                android:layout_below="@id/mappin"
+                android:layout_marginTop="15dp"
+                android:background="#e7e7e7" />
+            <FFImageLoading.Views.ImageViewAsync
+                android:id="@+id/userprofile_pic"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/view"
+                android:layout_marginBottom="7dp" />
+            <TextView
+                android:id="@+id/User_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/view"
+                android:layout_toEndOf="@id/userprofile_pic"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="3dp"
+				android:maxLines="1"
+					 android:lines="1"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/card_dist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/User_name"
+                android:layout_marginTop="-2dp"
+                android:layout_toEndOf="@id/userprofile_pic"
+                android:layout_marginStart="4dp"
+				android:maxLines="1"
+					 android:lines="1"
+                android:textColor="#9e9e9e"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>

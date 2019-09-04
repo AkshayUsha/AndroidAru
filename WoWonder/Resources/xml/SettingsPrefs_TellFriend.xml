@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--Privacy SECTION-->
+  <PreferenceCategory android:layout="@xml/divider"></PreferenceCategory>
+  <PreferenceCategory  android:key="SectionInvite_key" android:title="@string/Lbl_TellFriend" >
+
+    <Preference
+        android:key="InviteFriends_key"
+        android:title="@string/Lbl_Invite_Friends" />
+
+    <Preference
+      android:key="Share_key"
+      android:title="@string/Lbl_Share"
+      android:summary= "@string/Lbl_Summary_Share"/>
+
+
+    <Preference
+      android:key="MyAffiliates_key"
+      android:title="@string/Lbl_MyAffiliates"/>
+
+  </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:paddingStart="10dp"
+    android:layout_weight="1">
+    <RelativeLayout
+        android:id="@+id/Image_container"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+        <FFImageLoading.Views.ImageViewAsync
+            android:id="@+id/ImageGroup"
+            android:scaleType="centerCrop"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/default_group"
+            android:gravity="start" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@xml/gradientblack" />
+        <LinearLayout
+            android:id="@+id/event_container"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:gravity="center|bottom"
+            android:foregroundGravity="bottom">
+            <TextView
+                android:id="@+id/Group_titile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffff"
+                android:textSize="13dp"
+                android:textStyle="normal"
+                android:layout_marginEnd="5dp"
+                android:focusable="false"
+                android:clickable="false"
+                android:lines="2"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="false"
+                android:layout_marginStart="6dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="bottom"
+                android:gravity="bottom" />
+        </LinearLayout>
+        <at.markushi.ui.CircleButton
+            android:id="@+id/colorbutton2"
+            android:layout_width="26dip"
+            android:layout_height="26dip"
+            app:cb_color="#004ca6ff"
+            app:cb_pressedRingWidth="0dip"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_groups"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:tint="#ffffff" />
+    </RelativeLayout>
+</LinearLayout>

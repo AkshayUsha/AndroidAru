@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--Application.Context.GetText(Resource.String.text)-->
+
+  <!--supportsRtl-->
+  <string name="Is_arabic">false</string>
+  <!--===============================================================-->
+
+  <!--AD MOB // This information is only in the master file .. values/strings.xml-->
+  <!--<string name="banner_ad_unit_id"></string>-->
+  <!--===============================================================-->
+
+  <!--EXO PLAYER NOT FOR TRANCALCTE-->
+  <string name="selection_disabled">Désactivé </string>
+  <string name="selection_default">Defaut</string>
+  <string name="unexpected_intent_action">"Action d&apos;intention inattendue: "</string>
+  <string name="enable_random_adaptation">"Activer l&apos;adaptation aléatoire "</string>
+  <string name="error_drm_not_supported">"Contenu protégé non pris en charge pour les niveaux d&apos;API inférieurs à 18 "</string>
+  <string name="error_drm_unsupported_scheme">Cet appareil ne prend pas en charge le schéma DRM requis </string>
+  <string name="error_drm_unknown">"Une erreur DRM inconnue s&apos;est produite "</string>
+  <string name="error_no_decoder">Cet appareil ne fournit pas de décodeur pour </string>
+  <string name="error_no_secure_decoder">Cet appareil ne fournit pas de décodeur sécurisé pour </string>
+  <string name="error_querying_decoders">"Impossible d&apos;interroger les décodeurs de l&apos;appareil "</string>
+  <string name="error_instantiating_decoder">"Impossible d&apos;instancier le décodeur "</string>
+  <string name="error_unsupported_video">Média comprend les pistes vidéo, mais aucune ne peut être lue par cet appareil. </string>
+  <string name="error_unsupported_audio">Média comprend les pistes audio, mais aucune ne peut être lue par cet appareil. </string>
+  <string name="storage_permission_denied">"L&apos;autorisation d&apos;accès au stockage a été refusée "</string>
+  <string name="sample_list_load_error">"Un ou plusieurs exemples de listes n&apos;ont pas pu être chargés "</string>
+  <string name="ima_not_loaded">"Lecture d&apos;un échantillon sans publicité, l&apos;extension IMA n&apos;étant pas chargée "</string>
+  <string name="Lbl_Download_faileds">Échec du téléchargement. </string>
+  <!--===============================================================-->
+
+  <!--most used-->
+  <string name="video">Video</string>
+  <string name="audio">Audio</string>
+  <string name="image">Image</string>
+  <string name="text">Text</string>
+  <string name="retry">Recommencez </string>
+  <string name="Terms_of_service"><u>"Conditions d&apos;utilisation "</u> and</string>
+  <string name="Privacy_Policy"><u>Politique de confidentialité </u></string>
+  <string name="Lbl_Username">Nom utilisateur</string>
+  <string name="Lbl_Email">Email</string>
+  <string name="Lbl_Password">Mot de passe </string>
+  <string name="Lbl_Login">Connexion </string>
+  <string name="Lbl_Register">Inscription </string>
+  <string name="Lbl_Empty">Vide</string>
+  <string name="Lbl_Loading">Chargement </string>
+  <string name="Lbl_Comment">Commentaire</string>
+  <string name="Lbl_Videos">Vidéos</string>
+  <string name="Lbl_Views">vues</string>
+  <string name="Lbl_aboutMe">À propos de moi </string>
+  <string name="Lbl_About">À propos </string>
+  <string name="Lbl_Error">Erreur </string>
+  <string name="Lbl_Ok">OK</string>
+  <string name="Lbl_Security">Sécurité</string>
+  <string name="Lbl_Done">Terminé </string>
+  <string name="Lbl_Deleted">Supprimer </string>
+  <string name="Lbl_Delete">Effacer </string>
+  <string name="Lbl_Submit">Soumettre </string>
+  <string name="Lbl_Cancel">Annuler </string>
+  <string name="Lbl_Yes">Oui </string>
+  <string name="Lbl_No">Non</string>
+  <string name="Lbl_Warning">Attention </string>
+  <string name="Lbl_Changed">Changer</string>
+  <string name="Lbl_Crop">Surgir </string>
+  <string name="Lbl_Report">rapport </string>
+  <string name="Lbl_Quality">Qualité</string>
+  <string name="Lbl_Help_feedback">aide </string>
+  <string name="Lbl_Make_video_offline">Rendre la vidéo hors ligne </string>
+  <string name="Lbl_Share">Partager </string>
+  <string name="Lbl_InviteSMSText_1">Invité SMS Text </string>
+  <string name="Lbl_InviteSMSText_2">pour votre smartphone </string>
+  <string name="Lbl_Success">Success</string>
+  <string name="Lbl_Offline_Mode">Offline Mode</string>
+  <string name="Lbl_Cover">Couverture </string>
+  <string name="Lbl_Avatar">Profile </string>
+  <string name="Lbl_Close">Fermer </string>
+  <string name="Lbl_With">Avec </string>
+  <string name="Lbl_At">À </string>
+  <string name="Lbl_SelectPictures">Sélectionnez des images </string>
+  <string name="Lbl_SelectImage">Sélectionner une image </string>
+  <string name="Lbl_SelectFile">Choisir le dossier </string>
+  <string name="Lbl_SelectGif"> Sélectionnez GIF </string>
+  <string name="Lbl_Unknown">Inconnue </string>
+  <string name="Lbl_ReadMore">Lire plus</string>
+  <string name="Lbl_ReadLess">Lire moins </string>
+  <string name="Lbl_Description">Description</string>
+  <string name="Lbl_Lets_get_started">"Commencer </string>
+  <string name="Lbl_Published_on">Publier dans</string>
+  <string name="Lbl_I_agree_to_the">" je suis d&apos;accord avec le "</string>
+  <string name="Lbl_Image_file_creation_failed">La création du fichier image a échoué </string>
+  <string name="Lbl_Please_write_your_email">"S&apos;il vous plaît écrivez votre email "</string>
+  <string name="Lbl_Last_seen">Vue la dernière fois </string>
+  <string name="Lbl_Create_Account">Créer un compte </string>
+  <string name="Lbl_SignUp">"S&apos;inscrire "</string>
+  <string name="Lbl_SignIn">se connecter </string>
+  <!--===============================================================-->
+
+  <!-- Password-->
+  <string name="Lbl_ConfirmPassword">Confirmer le mot de passe </string>
+  <string name="Lbl_Forget_password">Mot de passe oublié ?</string>
+  <string name="Lbl_Forgot_your_password">Mot de passe oublié</string>
+  <string name="Lbl_Forgot_your_password_DontWorry">"Ne vous inquiétez pas, tapez votre email ici et nous le récupérerons pour vous."</string>
+  <string name="Lbl_Change_Password">Changer le mot de passe </string>
+  <string name="Lbl_Current_Password">Current Mot de passe actuel </string>
+  <string name="Lbl_New_Password">Nouveau mot de passe</string>
+  <string name="Lbl_Repeat_password">Répéter le mot de passe </string>
+  <string name="Lbl_Your_password_dont_match">Votre mot de passe ne correspond pas</string>
+  <string name="Lbl_Enter_Password">Entrer votre mot de passe ici </string>
+  <string name="Lbl_Change_your_password">Changer votre mot de passe </string>
+  <string name="Lbl_If_you_forgot_your_password">Mot de passe oublié, vous pouvez le changer ici</string>
+  <!--===============================================================-->
+
+  <!--Profile-->
+  <string name="Lbl_DefaultAbout">"Salut j&apos;utilise "</string>
+  <string name="Lbl_CopeLinkToProfile">Copier le lien vers le profil </string>
+  <string name="Lbl_Followers">Abonneés </string>
+  <string name="Lbl_Following">Abonnement </string>
+  <string name="Lbl_Follow">Suivre</string>
+  <string name="Lbl_Friends">Amis</string>
+  <string name="Lbl_Request">Demande </string>
+  <string name="Lbl_AddFriends">Ajouter des amis </string>
+  <string name="Lbl_People_Following">Les Abonnement  </string>
+  <string name="Lbl_People_Followers">Les abonneés </string>
+  <string name="Lbl_Update_DataProfile">Mettre à jour mon profil </string>
+  <string name="Lbl_First_Name">Prénom </string>
+  <string name="Lbl_Last_Name">Nomde famille </string>
+  <string name="Lbl_Mobile">Mobile</string>
+  <string name="Lbl_website">site web</string>
+  <string name="Lbl_Work_Place">Lieu de travail </string>
+  <string name="Lbl_School">École </string>
+  <string name="Lbl_Photos">Photos</string>
+  <string name="Lbl_View_All_Liked_Pages">Afficher les pages préférées par utilisateur </string>
+  <string name="Lbl_Birthday">Anniversaire </string>
+  <!--===============================================================-->
+
+  <!--Social Links-->
+  <string name="Lbl_Facebook">Facebook</string>
+  <string name="Lbl_Twitter">Twitter</string>
+  <string name="Lbl_GooglePlus">Google</string>
+  <string name="Lbl_Vk">Vkontakte</string>
+  <string name="Lbl_Linkedin">Linkedin</string>
+  <string name="Lbl_Instagram">Instagram</string>
+  <string name="Lbl_YouTube">YouTube</string>
+  <!--===============================================================-->
+
+  <!--WalkTroutPage-->
+  <string name="Lbl_Title_page1">Nouvelle version </string>
+  <string name="Lbl_Description_page1">Rapide pour que nous puissions vous emmener dans notre espace </string>
+  <string name="Lbl_Title_page2">Recherche globale </string>
+  <string name="Lbl_Description_page2">Trouver de nouveaux amis et contacts </string>
+  <string name="Lbl_Title_page3">Nouvelles fonctionnalités </string>
+  <string name="Lbl_Description_page3">Envoyer Recevoir tout type de message </string>
+  <string name="Lbl_Title_page4">Restez synchronisé </string>
+  <string name="Lbl_Description_page4">Gardez votre conversation de tous les appareils </string>
+  <!--===============================================================-->
+
+  <!-- Add Post-->
+  <string name="Lbl_AddPost">Ajouter une publication </string>
+  <string name="Lbl_Post">Publication </string>
+  <string name="Lbl_AddToPost">Ajouter à la publication </string>
+  <string name="Lbl_ImageGallery">"Gallérie d&apos;images "</string>
+  <string name="Lbl_VideoGallery">Gallérie video</string>
+  <string name="Lbl_MentionContact">Mention Contact</string>
+  <string name="Lbl_Location">Localisation </string>
+  <string name="Lbl_Place">Endroit </string>
+  <string name="Lbl_Feeling">sentiment </string>
+  <string name="Lbl_Camera">Camera</string>
+  <string name="Lbl_Gif">Gif</string>
+  <string name="Lbl_File">Fichier </string>
+  <string name="Lbl_Music">Music</string>
+  <string name="Lbl_Whats_Going_On">"What&apos;s going on? #Hashtag.. @Mention."</string>
+  <!--===============================================================-->
+
+  <!--Type Activity-->
+  <string name="Lbl_ListeningTo">Écouter </string>
+  <string name="Lbl_Listening">Écoute </string>
+  <string name="Lbl_Playing">En jouant  </string>
+  <string name="Lbl_Watching">Regarde </string>
+  <string name="Lbl_Traveling">Voyage </string>
+  <!--===============================================================-->
+
+  <!--Feelings-->
+  <string name="Lbl_Angry">En colère</string>
+  <string name="Lbl_Funny">Marrant</string>
+  <string name="Lbl_Loved">Aimé</string>
+  <string name="Lbl_Cool">Cool</string>
+  <string name="Lbl_Happy">Content</string>
+  <string name="Lbl_Tired">Fatigué</string>
+  <string name="Lbl_Sleepy">Somnolent</string>
+  <string name="Lbl_Expressionless">Sans expression</string>
+  <string name="Lbl_Confused">Confus</string>
+  <string name="Lbl_Shocked">Sous le choc</string>
+  <string name="Lbl_VerySad">Très triste</string>
+  <string name="Lbl_Blessed">Béni</string>
+  <string name="Lbl_Bored">Ennuyé</string>
+  <string name="Lbl_Broken">Cassé</string>
+  <string name="Lbl_Lovely">Charmant</string>
+  <string name="Lbl_Hot">Chaud</string>
+  <!--===============================================================-->
+
+  <!--Location-->
+  <string name="Lbl_Finding_your_Location">Trouver votre position… </string>
+  <string name="Lbl_SearchForPlace">"Recherche d&apos;endroits "</string>
+  <string name="Lbl_EventPlace">"Lieu de l&apos;événement "</string>
+  <!--===============================================================-->
+
+  <!--Mentions-->
+  <string name="Lbl_MentionsFriend">Mentionnez un ami </string>
+  <!--===============================================================-->
+
+  <!--User contacts-->
+  <string name="Lbl_Empty_usercontacts">"Il n&apos;y a pas de contacts "</string>
+  <string name="Lbl_Start_usercontacts">Commencez à ajouter de nouveaux contacts! </string>
+  <!--===============================================================-->
+
+  <!--Albums-->
+  <string name="Lbl_MyImages">Mes images</string>
+  <string name="Lbl_YourImages">Votre image </string>
+  <string name="Lbl_Empty_Albums">Pas de photo !!</string>
+  <string name="Lbl_Start_Albums">Commencez à télécharger vos propres photos </string>
+  <!--===============================================================-->
+
+  <!--Blocked Users-->
+  <string name="Lbl_Empty_BlockedUser">Aucun utilisateur bloqué </string>
+  <string name="Lbl_BlockedUsers">Utilisateur bloqué </string>
+  <string name="Lbl_Blocked_successfully">bloqué avec succès </string>
+  <string name="Lbl_Unblock_successfully">débloqué avec succès </string>
+  <!--===============================================================-->
+
+  <!--Story-->
+  <string name="Lbl_Addnewstory">cree un statut </string>
+  <string name="Lbl_Stories">Statut</string>
+  <string name="Lbl_Story">Récit</string>
+  <!--===============================================================-->
+
+  <!--Edit post-->
+  <string name="Lbl_EditPost">modifier la publication </string>
+  <string name="Lbl_PostPrivacy">Publication privée </string>
+  <!--===============================================================-->
+
+  <!--Post Data-->
+  <string name="Lbl_PostLikes">Publications aimé </string>
+  <string name="Lbl_PostWonders">Post Wonders</string>
+  <string name="Lbl_Empty_PostLikes">"personne n&apos;aime encore "</string>
+  <string name="Lbl_Empty_PostWonders">No wonders yet</string>
+  <!--===============================================================-->
+
+  <!--Movies-->
+  <string name="Lbl_Empty_Movies">Pas de video</string>
+  <string name="Lbl_Start_Movies">"Tu n&apos;as pas de vidéo "</string>
+  <string name="Lbl_Stars">Étoile</string>
+  <string name="Lbl_Tag">Tag</string>
+  <string name="Lbl_Delete_video">Supprimer la vidéo </string>
+  <string name="Lbl_Min">Min</string>
+  <!--===============================================================-->
+
+  <!--Events-->
+  <string name="Lbl_Create_Events">Créer un évènement </string>
+  <string name="Lbl_Empty_Events">"Pas d&apos;événements "</string>
+  <string name="Lbl_Start_Events">"Pas d&apos;événements a montré "</string>
+  <string name="Lbl_GoingPeople"> Les gens qui vont </string>
+  <string name="Lbl_InterestedPeople">Personne intéressée </string>
+  <string name="Lbl_Going">Aller</string>
+  <string name="Lbl_Go">Aller</string>
+  <string name="Lbl_Interested">Intéressée</string>
+  <string name="Lbl_Start_Date">Date de début </string>
+  <string name="Lbl_End_Date">Date de fin</string>
+  <string name="Lbl_Event_Name">"Nom de l&apos;événement"</string>
+  <string name="Lbl_ViewEvent">"Voir l&apos;événement"</string>
+  <!--===============================================================-->
+
+  <!--Pages-->
+  <string name="Lbl_ExplorePage">Explorer les pages</string>
+  <string name="Lbl_Create_New_Page">Créer une nouvelle page</string>
+  <string name="Lbl_New_Page">Nouvelle page</string>
+  <string name="Lbl_Empty_LikedPages">"personne n&apos;aime la page"</string>
+  <string name="Lbl_Start_LikedPages">Commencez à visionner ou créez votre propre page </string>
+  <string name="Lbl_Update_Data_Page">Mettre a jour la date de la page</string>
+  <string name="Lbl_Describe_Page">Décrit votre page</string>
+  <string name="Lbl_Describe_Description_Page"> Indiquez aux membres potentiels ce que vos pages proposent.</string>
+  <string name="Lbl_Page_title">Titre de la page</string>
+  <string name="Lbl_Page_URL">URL de la page</string>
+  <string name="Lbl_Page_About">À propos de la page</string>
+  <string name="Lbl_Manage_Pages">Gérer les pages</string>
+  <string name="Lbl_Liked_Pages">Pages aimées </string>
+  <!--===============================================================-->
+
+  <!--Group-->
+  <string name="Lbl_ExploreGroup">Explorer les groupes</string>
+  <string name="Lbl_New_Group">Nouveau groupe</string>
+  <string name="Lbl_Create_New_Group">Create New Group</string>
+  <string name="Lbl_Empty_JoinedGroup">pas de groupe</string>
+  <string name="Lbl_Start_JoinedGroup">rejoindre ou cree votre groupe</string>
+  <string name="Lbl_Update_DataGroup">Mettre a jour la date du groupe</string>
+  <string name="Lbl_Describe_Group">Décrit votre groupe</string>
+  <string name="Lbl_Describe_Description_Group">Dites aux membres potentiels ce que vos groupes sont sur le point de faire pour les aider à savoir si cela les concerne.</string>
+  <string name="Lbl_Group_title">Titre du groupe</string>
+  <string name="Lbl_Group_URL">URL du groupe</string>
+  <string name="Lbl_Group_About">Group À propos du groupe</string>
+  <string name="Lbl_Update_Data_Group">Mettre a jour la date du groupe</string>
+  <string name="Lbl_Manage_Groups">Manage Groups</string>
+  <string name="Lbl_Joined_Groups">Groupe rejoint</string>
+  <!--===============================================================-->
+
+  <!--Notification-->
+  <string name="Lbl_Empty_notifications">"Vous n&apos;avez aucune notification "</string>
+  <!--===============================================================-->
+
+  <!--Search-->
+  <string name="Lbl_Empty_search">Aucun résultat trouvé </string>
+  <string name="Lbl_Start_search">Lancer une recherche avec un nouveau mot</string>
+  <!--===============================================================-->
+
+  <!--Search Filter-->
+  <string name="Lbl_Search_Filter">filtre de recherche</string>
+  <string name="Lbl_All">Tout</string>
+  <string name="Lbl_Gender">Genre</string>
+  <string name="Lbl_Profile_Picture">Photo de profil</string>
+  <!--===============================================================-->
+
+  <!--Market-->
+  <string name="Lbl_Empty_Market">"Pas d&apos;articles"</string>
+  <string name="Lbl_Start_Market">Commencer a vendre vos produits</string>
+  <string name="Lbl_CreateNewProduct">Créer votre nouveau produit</string>
+  <string name="Lbl_NewProduct">Nouveau produit</string>
+  <string name="Lbl_Describe_Product">Vendre un nouveau produit </string>
+  <string name="Lbl_Describe_Description_Product">"Vous pouvez répertorier les produits en vente à partir de l&apos;outil Ajouter un produit."</string>
+  <string name="Lbl_Product_name">Nom du produit</string>
+  <string name="Lbl_Product_price">Prix du produit</string>
+  <string name="Lbl_Product_Location">emplacement du produit</string>
+  <string name="Lbl_Product_description">Description du produit</string>
+  <string name="Lbl_In_Stock">en Stock</string>
+  <!--===============================================================-->
+
+  <!--Article-->
+  <string name="Lbl_ExploreArticle">Explorerles articles</string>
+  <string name="Lbl_Empty_Article">"Pas d&apos;articles"</string>
+  <string name="Lbl_Start_Article">"Pas d&apos;article disponible"</string>
+  <!--===============================================================-->
+
+  <!--News-->
+  <string name="Lbl_Empty_News">Mode offline</string>
+  <string name="Lbl_Start_News">page non trouvé</string>
+  <!--===============================================================-->
+
+  <!--Friend Request-->
+  <string name="Lbl_FriendRequest">"Demande d&apos;amis"</string>
+  <string name="Lbl_Empty_FriendRequest">"Vous n&apos;avez aucune demande "</string>
+  <string name="Lbl_View_All_FriendRequest">"Afficher les demandes d&apos;amis"</string>
+  <!--===============================================================-->
+
+  <!--Trending-->
+  <string name="Lbl_Pro_Users">Utilisateur Pro</string>
+  <string name="Lbl_Pro_Pages">Pages Pro</string>
+  <!--===============================================================-->
+
+  <!--Last Activities-->
+  <string name="Lbl_LastActivities">Derrière activité</string>
+  <string name="Lbl_CommentedOn">commenté sur</string>
+  <string name="Lbl_ReactedTo">réagi à</string>
+  <string name="Lbl_StartedFollowing">commencé à suivre</string>
+  <string name="Lbl_BecomeFriendsWith">devenir amis avec</string>
+  <string name="Lbl_IsFollowing">suit</string>
+  <string name="Lbl_wondered">demandé</string>
+  <string name="Lbl_disliked">détesté</string>
+  <string name="Lbl_shared">partagé</string>
+  <!--===============================================================-->
+
+  <!--Time-->
+  <string name="Lbl_hours">Il y a des heures</string>
+  <string name="Lbl_days">Il y a quelques jours</string>
+  <string name="Lbl_month">Il y a un mois</string>
+  <string name="Lbl_minutes">Il y a quelques minutes </string>
+  <string name="Lbl_seconds">Il y a quelques instants </string>
+  <string name="Lbl_year">"l y&apos;a un an "</string>
+
+  <string name="Lbl_about_minute">Il y a environ une minute </string>
+  <string name="Lbl_about_hour">il y a à peu près une heure </string>
+  <string name="Lbl_yesterday">hier</string>
+  <string name="Lbl_about_month">il y a environ un mois </string>
+  <string name="Lbl_about_year"> il y a un an</string>
+  <!--===============================================================-->
+
+  <!--NearBy-->
+  <string name="Lbl_NearBy">Trouver des amis à proximité</string>
+  <string name="Lbl_Start_NearBy">Oups, il semble que personne ne soit près de chez vous</string>
+  <string name="Lbl_turn_your_GPS">Activer vote GPS pour de meilleurs résultats</string>
+  <string name="Lbl_distance_away">une distance</string>
+  <string name="Lbl_km">km</string>
+  <!--===============================================================-->
+
+  <!--Add Post-->
+  <string name="Lbl_YouCannot_PostanEmptyPost">Vous ne pouvez pas publier une publication vide</string>
+  <!--===============================================================-->
+
+  <!--Categories-->
+  <string name="Lbl_Category">Catégorie</string>
+  <string name="Lbl_SelectCategories">Sélectionnez une catégorie</string>
+
+  <!--Categories Communities Local Custom-->
+  <string-array name="Categories_Communities_array">
+    <item>Autre</item>
+    <item>Voiture</item>
+    <item>Comédie</item>
+    <item>Économie et commerce</item>
+    <item>Éducation</item>
+    <item>Divertissement</item>
+    <item>Vidéos et animation</item>
+    <item>jeux</item>
+    <item>Histoire et faits</item>
+    <item>Style de vie</item>
+    <item>Naturel</item>
+    <item> Actualités et politique</item>
+    <item>Peuples et Nations</item>
+    <item>Animaux</item>
+    <item>Lieux et régions</item>
+    <item>Science et technologie</item>
+    <item>Sport</item>
+    <item>Voyage et événements</item>
+  </string-array>
+  <!--===============================================================-->
+
+  <!--Button-->
+  <string name="Btn_Send">Envoyer</string>
+  <string name="Btn_DeleteAccount">Supprimer mon compte</string>
+  <string name="Btn_UnBlock">Débloquer</string>
+  <string name="Btn_SearchRandom">Recherche au hasard</string>
+  <string name="Btn_reloadPage">Recharger la page</string>
+  <string name="Btn_Skip">ignore</string>
+  <string name="Btn_Unlike">"j&apos;aime pas"</string>
+  <string name="Btn_Like">"j&apos;aime"</string>
+  <string name="Btn_Liked">"j&apos;aime"</string>
+  <string name="Btn_Dislike">"j&apos;aime pas"</string>
+  <string name="Btn_Likes">Likes</string>
+  <string name="Btn_Contact">Contacts</string>
+  <string name="Btn_Create_Events">"Créer l&apos;événement"</string>
+  <string name="Btn_AddProduct">Ajouter un produit</string>
+  <string name="Btn_Joined">Rejoint</string>
+  <string name="Btn_Join_Group">rejoindre le groupe</string>
+  <!--===============================================================-->
+
+  <!--menu-->
+  <string name="Lbl_Add">Ajouter</string>
+  <string name="Lbl_Create">Créer</string>
+  <string name="Lbl_Update">Mettre à jour</string>
+  <string name="Lbl_Block">Bloc</string>
+  <string name="Lbl_Edit">Éditer</string>
+  <string name="Lbl_Save">Sauvegarder</string>
+  <string name="Lbl_Invite_Friends">Invité des amiz</string>
+  <string name="Lbl_Refresh">Recharger</string>
+  <string name="Lbl_Blocked_User_List">"liste d&apos;utilisateur bloqué"</string>
+  <string name="Lbl_Settings">Paramètres</string>
+  <string name="Lbl_CopeLink">Copier le lien</string>
+  <string name="Lbl_ViewPrivacy">Afficher les raccourcis de confidentialité</string>
+  <string name="Lbl_SettingsAccount">Paramètres du compte</string>
+  <!--===============================================================-->
+
+  <!--RadioButton-->
+  <string name="Radio_Male">Homme</string>
+  <string name="Radio_Female">Femme</string>
+  <string name="Radio_Public">Public</string>
+  <string name="Radio_Private">Privée</string>
+  <string name="Radio_New">Nouveau</string>
+  <string name="Radio_Used">Utiliser</string>
+  <!--===============================================================-->
+
+  <!--Toast && Messages-->
+  <string name="Lbl_CheckYourInternetConnection">"S&apos;il vous plait, vérifiez votre connexion internet"</string>
+  <string name="Lbl_You_can_not_access_your_disapproval">Vous ne pouvez pas accéder à votre désapprobation des termes et conditions</string>
+  <string name="Lbl_Sent_successfully">Bien envoyé.</string>
+  <string name="Lbl_Sent_successfully_followed">Vous suivez cet utilisateur</string>
+  <string name="Lbl_Sent_successfully_FriendRequest">La demande en amis a été envoyé</string>
+  <string name="Lbl_Sent_successfully_Unfollowed">"L&apos;utilisateur a été suivi."</string>
+  <string name="Lbl_Sent_successfully_FriendRequestCancelled">"La demande d&apos;amis a été annulé."</string>
+  <string name="Lbl_Copied">Copié</string>
+  <string name="Lbl_VerificationFailed">La verification a échoué </string>
+  <string name="Lbl_something_went_wrong">"Vérifiez vos informations d&apos;identification quelque chose s&apos;est mal passé"</string>
+  <string name="Lbl_Error_Login">"Vérifiez vos informations d&apos;identification quelque chose s&apos;est mal passé "</string>
+  <string name="Lbl_Error_Register_password">Inscription impossible vérifier votre mot de passe</string>
+  <string name="Lbl_The_name_can_not_be_blank">Le nom ne peut pas être vide</string>
+  <string name="Lbl_Your_account_was_successfully_deleted">Votre compte a bien été supprimer</string>
+  <string name="Lbl_Closed_App">"L&apos;application serra fermée"</string>
+  <string name="Lbl_You_can_not_Download_video">Vous ne pouvez pas télécharger la vidéo</string>
+  <string name="Lbl_Permission_is_denailed">"Désolé: vous ne pouvez pas poursuivre votre action si vous n&apos;autorisez pas"</string>
+  <string name="Lbl_received_your_report">Merci, nous avons reçu votre rapport!</string>
+  <string name="Lbl_Image_changed_successfully">"L&apos;image a été modifiée avec succès"</string>
+  <string name="Lbl_Uploads_Image">Votre photo sera bientôt mise à jour</string>
+  <string name="Lbl_Post_Added">Publication ajouté</string>
+  <string name="Lbl_Post_Failed">"Échec de la publicatio&apos;"</string>
+  <string name="Lbl_Google_Not_Available">Les services Google Play ne sont pas disponibles.</string>
+  <string name="Lbl_Google_Exception">Exception des services Google Play.</string>
+  <string name="Lbl_Camera_Not_Available">"La camera n&apos;est pas disponible."</string>
+  <string name="Lbl_Failed_to_load">Échec du changement</string>
+  <string name="Lbl_NotEnoughPermission">Pas assez de permission</string>
+  <string name="Lbl_YourGroupWasUpdated">Votre groupe a bien été mis à jour</string>
+  <string name="Lbl_YourPageWasUpdated">Votre page a bien été mis à jour</string>
+  <string name="Lbl_Email_Has_Been_Send">Le mail a bienété envoyé</string>
+  <string name="Lbl_Application_Restart">"L&apos;application va redemander"</string>
+  <string name="Lbl_ImageSaved">Image enregistrer dans la Gallérie</string>
+  <string name="Lbl_Null_Data_User">Utilisateur de données nul</string>
+  <string name="Lbl_Loading_From_Server">Chargement depuis le serveur</string>
+  <string name="Lbl_You_will_be_logged">Vous serez déconnecté maintenant, à plus tard</string>
+  <string name="Lbl_No_have_more_users">"Pas plus d&apos;utilisateurs"</string>
+  <!--===============================================================-->
+
+  <!--Error-->
+  <string name="Lbl_Error_Code">Code erronée</string>
+  <string name="Lbl_Please_check_your_details">Vérifiez vos informations</string>
+  <string name="Lbl_Please_enter_your_data">Erreur, veuillez entrer vos données</string>
+  <string name="Lbl_IsEmailValid">Erreur, veuillez écrire votre adresse email complète</string>
+  <string name="Lbl_Please_confirm_your_password">Error, Please confirm your password</string>
+  <string name="Lbl_Please_enter_name">Erreur, veuillez entrer le nom</string>
+  <string name="Lbl_Please_enter_title">Erreur, veuillez entrer le titre</string>
+  <string name="Lbl_Please_enter_about">Erreur, veuillez entrer à propos de</string>
+  <string name="Lbl_Please_enter_Description">Erreur, veuillez saisir une description</string>
+  <string name="Lbl_Please_select_category">Erreur, veuillez sélectionner une catégorie</string>
+  <string name="Lbl_Please_select_start_date">Erreur, veuillez entrer une date de début</string>
+  <string name="Lbl_Please_select_end_date">Erreur, veuillez entrer une date de fin</string>
+  <string name="Lbl_Please_select_Location">Erreur, veuillez sélectionner une localisation</string>
+  <string name="Lbl_Please_select_start_time">"Erreur, veuillez sélectionner l&apos;heure de début"</string>
+  <string name="Lbl_Please_select_end_time">"Erreur, veuillez sélectionner l&apos;heure de fin"</string>
+  <string name="Lbl_Please_select_Image">Erreur, merci de sélectionner une image</string>
+  <string name="Lbl_Please_enter_price">Erreur, veuillez entrer le prix</string>
+  <string name="Lbl_Error_path_image">"Erreur du chemin de l&apos;image"</string>
+  <string name="Lbl_Error_DisplayAddress">"Impossible de déterminer l&apos;adresse. Réessayez dans quelques minutes."</string>
+  <string name="Lbl_Error_LocationChanged">Impossible de déterminer votre position. Essayez à nouveau dans un court laps de temps.</string>
+  <!--===============================================================-->
+
+  <!--Login && Register-->
+  <string name="Lbl_ErrorLogin_3">Identifiant ou mot de passe incorrect</string>
+  <string name="Lbl_ErrorLogin_4">"Nom d&apos;utilisateur non trouvé"</string>
+  <string name="Lbl_ErrorLogin_5">Le mot de passe est incorrect</string>
+
+  <string name="Lbl_ErrorRegister_3">Erreur trouvée, veuillez réessayer plus tard</string>
+  <string name="Lbl_ErrorRegister_4">"Nom d&apos;utilisateur déjà pris"</string>
+  <string name="Lbl_ErrorRegister_5">"Caractères nom d&apos;utilisateur non valides, veuillez choisir un autre nom d&apos;utilisateur"</string>
+  <string name="Lbl_ErrorRegister_6">"Le nom d&apos;utilisateur doit être compris entre 5/32 lettres"</string>
+  <string name="Lbl_ErrorRegister_7">Cet email est déjà pris</string>
+  <string name="Lbl_ErrorRegister_8">Le courriel est invalide</string>
+  <string name="Lbl_ErrorRegister_9">Le mot de passe est trop court</string>
+  <string name="Lbl_ErrorRegister_10">Les mots de passe ne correspondent pas</string>
+  <string name="Lbl_ErrorRegister_11">"Erreur détectée lors de l&apos;envoi de l&apos;e-mail de vérification. Veuillez réessayer ultérieurement"</string>
+  <!--===============================================================-->
+
+  <!--AlertDialog-->
+  <string name="Lbl_Are_you_logout"> Êtes-vous sûr de vouloir vous déconnecter? </string>
+  <string name="Lbl_Please_wait">"S&apos;il vous plaît, attendez…"</string>
+  <string name="Lbl_Do_You_want_to_remove_video">Voulez-vous supprimer la vidéo du cache</string>
+  <string name="Lbl_Comment_Hint_Listening">"Qu&apos;écoutes-tu?"</string>
+  <string name="Lbl_Comment_Hint_Playing">A quoi tu joues?</string>
+  <string name="Lbl_Comment_Hint_Watching">"Qu&apos;est-ce que vous regardez?"</string>
+  <string name="Lbl_Comment_Hint_Traveling"> ou voyagez-vous</string>
+  <string name="Lbl_What_Are_You_Doing">"Qu&apos;est-ce que tu fais?"</string>
+  <string name="Lbl_Enter_your_link">Entrez votre lien</string>
+  <string name="Lbl_Title_Back">Êtes-vous sûr de sortir?</string>
+  <string name="Lbl_Content_Back">L’entrée complète sera supprimée si vous quittez ou vous pouvez continuer l’édition.</string>
+  <string name="Lbl_PositiveText_Back">Annuler et retourner</string>
+  <string name="Lbl_NegativeText_Back">"Continuer l&apos;édition"</string>
+  <string name="Lbl_Title_Location">Ma position</string>
+  <string name="Lbl_Snippet_Location">"Ceci est la position de mon appareil"</string>
+  <string name="Lbl_Title_DeletePost">Supprimer la publication</string>
+  <string name="Lbl_Content_DeletePost">Vous êtes sur de vouloir supprimer la publication</string>
+  <string name="Lbl_leave_comment">laissez un commentaire</string>
+  <string name="Lbl_Write_comment">Écrire un commentaire</string>
+  <string name="Lbl_No_more_users">"Pas plus d&apos;utilisateurs à afficher"</string>
+  <!--===============================================================-->
+
+  <!--Fragment-->
+  <string name="Lbl_Library">Librairie</string>
+  <string name="Lbl_Notifcations">Notifications</string>
+  <string name="Lbl_Trending">hashtag</string>
+  <string name="Lbl_Search">Recherche</string>
+  <string name="Lbl_Activity">Activer</string>
+  <string name="Lbl_More">Plus</string>
+  <string name="Lbl_Market">Marché</string>
+  <string name="Lbl_MyProducts">Mes produits</string>
+  <string name="Lbl_All_Events">Tout les événements</string>
+  <string name="Lbl_My_Events">Mes événements</string>
+  <string name="Lbl_Users">Utiliser</string>
+  <string name="Lbl_Pages">Pages</string>
+  <string name="Lbl_Groups">Groupes</string>
+  <string name="Lbl_News_Feed">"Fil d&apos;actualité"</string>
+  <!--===============================================================-->
+
+  <!--Page-->
+  <string name="Lbl_MyProfile">Mon profil</string>
+  <string name="Lbl_Messages">Messages</string>
+  <string name="Lbl_Contacts">Contacts</string>
+  <string name="Lbl_Albums">Albums</string>
+  <string name="Lbl_Saved_Posts">Sauvegarder la publication</string>
+  <string name="Lbl_Blogs">Blogs</string>
+  <string name="Lbl_Marketplace">Marché</string>
+  <string name="Lbl_Events">Événements</string>
+  <string name="Lbl_FindFriends">Retrouver des amis</string>
+  <string name="Lbl_Movies">Vidéos</string>
+  <string name="Lbl_Tell_Friends">Parlez-en à vos amis</string>
+  <string name="Lbl_CleanCashed">Effacer les fichiers en cache</string>
+  <string name="Lbl_Help_Support">Aide et soutien</string>
+  <string name="Lbl_Logout">Déconnexion</string>
+  <!--===============================================================-->
+
+  <!--SettingsPreferences-->
+  <!--===============================================================-->
+  <string name="Lbl_Account_and_Profile">Compte et profil</string>
+  <string name="Lbl_Edit_Profile_and_avatar">Editer le profil</string>
+  <string name="Lbl_My_Account">Mon compte</string>
+  <string name="Lbl_SocialLinks">Lien social</string>
+  <string name="Lbl_DeleteAccount">Supprimer le compte</string>
+  <string name="Lbl_GeneralAccount">Compte général</string>
+
+  <string name="Lbl_General">Général</string>
+  <string name="Lbl_Language">Language</string>
+  <string name="Lbl_Display_your_app_Language">Afficher la langue de votre application</string>
+
+  <string name="Lbl_Privacy">Intimité</string>
+  <string name="Lbl_Who_can_follow_me">Qui peut me suivre?</string>
+  <string name="Lbl_Who_can_message_me">"Qui peut m&apos;envoyer un message?"</string>
+  <string name="Lbl_CanSeeMyfriends">Qui peut voir mes amis?</string>
+  <string name="Lbl_CanPostOnMyTimeline">Qui peut publier sur mon mur</string>
+  <string name="Lbl_Who_can_see_my_birthday">Qui peut voir mon anniversaire</string>
+  <string name="Lbl_ConfirmRequestFollows"> Confirmer la demande</string>
+  <string name="Lbl_Summary_ConfirmRequestFollows">"Quand quelqu&apos;un me suit"</string>
+  <string name="Lbl_ShowMyActivities">Afficher mes activités</string>
+  <string name="Lbl_Status">Status</string>
+  <string name="Lbl_ShareMyLocation">Partager ma position public</string>
+  <string name="Lbl_Everyone">Tout le monde</string>
+  <string name="Lbl_People_i_Follow">Les gens que je suis</string>
+  <string name="Lbl_People_Follow_Me">Les gens me suivent</string>
+  <string name="Lbl_No_body">Personne</string>
+  <string name="Lbl_Online">En ligne</string>
+  <string name="Lbl_Offline">Hors ligne</string>
+
+  <string name="Lbl_Message_Notifications">Message Notifications</string>
+  <string name="Lbl_Notification_Popup">Notification Popup</string>
+  <string name="Lbl_Summary_notifications">Recevoir des notifications lorsque vous recevez des messages</string>
+  <string name="Lbl_Conversation_tones">Tonalités de conversation</string>
+  <string name="Lbl_Summary_Play_sounds">Résumé jouer des sons</string>
+
+  <string name="Lbl_TellFriend">Dites à un ami</string>
+  <string name="Lbl_Summary_Share">Partagez cette application avec vos amis</string>
+  <string name="Lbl_MyAffiliates">Mes affiliés</string>
+
+  <string name="Lbl_Support">Support</string>
+  <string name="Lbl_Help">Help Centre</string>
+  <string name="Lbl_Report_Problem">Signaler un problème</string>
+  <string name="Lbl_Legal_and_Policies">Juridique et Politiques</string>
+  <string name="Lbl_PrivacyPolicy">Politique de confidentialité</string>
+  <string name="Lbl_About_App">À propos de nous</string>
+  <string name="Lbl_TermsOfUse">"Conditions d&apos;utilisation"</string>
+
+  <!--Delete Account-->
+  <string name="Lbl_Are_you_DeleteAccount">Êtes-vous sûr de vouloir supprimer le compte de</string>
+
+  <string name="Lbl_IWantToDelete1">Oui, je veux supprimer</string>
+  <string name="Lbl_IWantToDelete2">en permanence de</string>
+  <string name="Lbl_IWantToDelete3">Compte.</string>
+  <!--===============================================================-->
+  
+  <!--Privacy Setting-->
+  <!--==================================================================-->
+
+  <!--Who can follow me ?-->
+  <string-array name="settings_CanFollow_array">
+    <item>Tout le monde</item>
+    <item>Les gens que je suis</item>
+  </string-array>
+  <string-array name="value_settings_CanFollow_array">
+    <item>0</item>
+    <item>1</item>
+  </string-array>
+
+  <!--Who can message me ?-->
+  <string-array name="settings_message_array">
+    <item>Tout le monde</item>
+    <item>Les gens que je suis</item>
+  </string-array>
+  <string-array name="value_settings_message_array">
+    <item>0</item>
+    <item>1</item>
+  </string-array>
+
+  <!--Who can see my friends?-->
+  <string-array name="settings_CanSeeMyfriends_array">
+    <item>Tout le monde</item>
+    <item>Les gens que je suis</item>
+    <item>Les gens qui me suivent</item>
+    <item>Personne</item>
+  </string-array>
+  <string-array name="value_settings_CanSeeMyfriends_array">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+  </string-array>
+
+  <!--Who can post on my timeline ?-->
+  <string-array name="settings_CanPostOnMyTimeline_array">
+    <item>Tout le monde</item>
+    <item>Les gens que je suis</item>
+    <item>Personne</item>
+  </string-array>
+  <string-array name="value_settings_CanPostOnMyTimeline_array">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+  </string-array>
+
+  <!--Who can see my birthday?-->
+  <string-array name="settings_birthday_array">
+    <item>Tout le monde</item>
+    <item>Les gens que je suis</item>
+    <item>Personne</item>
+  </string-array>
+  <string-array name="value_settings_birthday_array">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+  </string-array>
+
+  <!--Confirm request when someone follows you-->
+  <string-array name="settings_ConfirmRequestFollows_array">
+    <item>Non</item>
+    <item>Oui</item>
+  </string-array>
+  <string-array name="value_settings_ConfirmRequestFollows_array">
+    <item>0</item>
+    <item>1</item>
+  </string-array>
+
+  <!--Send users a notification when i visit their profile?-->
+  <string-array name="settings_SendNotificationVisitProfile_array">
+    <item>Non</item>
+    <item>Oui</item>
+  </string-array>
+  <string-array name="value_settings_SendNotificationVisitProfile_array">
+    <item>0</item>
+    <item>1</item>
+  </string-array>
+
+  <!--Show my activities-->
+  <string-array name="settings_ShowMyActivities_array">
+    <item>Non</item>
+    <item>Oui</item>
+  </string-array>
+  <string-array name="value_settings_ShowMyActivities_array">
+    <item>0</item>
+    <item>1</item>
+  </string-array>
+
+  <!--Status-->
+  <string-array name="settings_Status_array">
+    <item>En ligne</item>
+    <item>Hors ligne</item>
+  </string-array>
+  <string-array name="value_settings_Status_array">
+    <item>0</item>
+    <item>1</item>
+  </string-array>
+
+  <!--Share my location with public-->
+  <string-array name="settings_ShareMyLocation_array">
+    <item>Oui</item>
+    <item>Non</item>
+  </string-array>
+  <string-array name="value_settings_ShareMyLocation_array">
+    <item>0</item>
+    <item>1</item>
+  </string-array>
+
+</resources>

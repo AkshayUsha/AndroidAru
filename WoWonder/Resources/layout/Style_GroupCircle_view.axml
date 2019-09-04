@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:orientation="vertical"
+    android:paddingEnd="5dp"
+    android:paddingTop="12dp"
+    android:paddingBottom="10dp"
+    android:layout_marginStart="-2dp"
+    android:background="@android:color/white"
+    android:focusable="false"
+    android:layout_alignParentStart="true"
+    android:foregroundGravity="center_horizontal"
+    android:gravity="center_horizontal">
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <FFImageLoading.Views.ImageViewAsync
+            android:id="@+id/Image"
+            android:scaleType="centerCrop"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:focusable="false"
+            android:clickable="false" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ImageCircle"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#ffffffff"
+            android:layout_alignBottom="@id/Image"
+            android:layout_marginBottom="2dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="52dp"
+            android:src="@drawable/Blue_Color"
+            android:layout_above="@id/Image" />
+        <TextView
+            android:id="@+id/IconGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/Image"
+            android:layout_marginBottom="7dp"
+            android:layout_centerVertical="true"
+            android:text="T"
+            android:textSize="13sp"
+            android:textColor="#ffffff"
+            android:layout_marginStart="59dp"
+            android:layout_above="@id/Image" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/groupName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textDark_color"
+        android:textSize="12dp"
+        android:layout_marginTop="5dp"
+        android:focusable="false"
+        android:clickable="false"
+        android:text="Test Group 2018"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:foregroundGravity="center_horizontal"
+        android:gravity="center_horizontal" />
+</LinearLayout>

@@ -1,0 +1,397 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WoWonder_API</name>
+    </assembly>
+    <members>
+        <member name="M:WoWonder_API.Requests.Client.Album.Get_User_Albums(System.String,System.String,System.String)">
+            <summary>
+            Get user’s albums.
+            </summary>
+            <param name="user_id">Get the albums of this user ID. obligatory</param>
+            <param name="limit">Default: 35. not obligatory</param>
+            <param name="offset">Get albums before the offset ID. not obligatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Article.Get_Articles(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Get latest or user’s articles.
+            </summary>
+            <param name="limit">Default: 25	//not obligatory</param>
+            <param name="offset">Get articles after the offset ID	//not obligatory</param>
+            <param name="user_id">Filter by user.	//not obligatory</param>
+            <param name="category">Filter by category.	//not obligatory</param>
+            <param name="article_id">Get a specified article by ID.	//not obligatory</param>
+            <returns>Get_Users_Articles_Object</returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Event.Create_Event(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            this method is used to creat an event . 
+             example for how you can input ur path for PC,
+             string uriPath = "C:\\Users\\Mohamad Developer\\Pictures\\fatih.jpg";
+            string localPath = new Uri(uriPath).LocalPath;
+            (int x,var y) = await WoWonder_API.Client.Create_Event ("alialialialia", "alialialialia", "alialialialia", "2019-12-09", "2019-12-10", "10:00", "12:00", localPath );
+            note : did not upload the pic // ask ali
+            </summary>
+            <param name="event_name">Event name, min: 5 letters.</param>
+            <param name="event_location">Event location	</param>
+            <param name="event_description">Event description, min: 10 letters.	</param>
+            <param name="event_start_date">Event start date, fromat: YYYY-MM-DD	</param>
+            <param name="event_end_date">Event end date, fromat: YYYY-MM-DD	</param>
+            <param name="event_start_time">Event start time, fromat: 00:00	</param>
+            <param name="event_end_time">Event end time, fromat: 00:00	</param>
+            <param name="File_Path">the path of the file </param>
+            <param name="images">Event cover, jpg, png, gif, jpeg	</param>
+            <returns>Class.Create_Event</returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Event.Get_Events(System.String,System.String,System.String)">
+            <summary>
+            Get latest events, or user events, basiclly this methods is used to fetch data about event.
+            </summary>
+            <param name="limit">Default: 35, //not obligatory	</param>
+            <param name="offset">Get events before the offset ID, //not obligatory	</param>
+            <param name="my_offset">Get my events before the offset ID, //not obligatory	</param>
+            <param name="fetch">Choose what you would like to get.	(events,my_events).// obligatory </param>
+            <returns></returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Event.Go_To_Event(System.String)">
+            <summary>
+            Go to event / remove go to event.
+            </summary>
+            <param name="event_id">event ID. //obligatory. </param>
+            <returns></returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Event.Interest_Event(System.String)">
+            <summary>
+            Interest in event / remove interest in event.
+            </summary>
+            <param name="event_id">event ID. //obligatory.</param>
+            <returns></returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Global.Get_Auth(SettingsConnecter.Settings,System.String,System.String,System.String,System.String)">
+            <summary>
+            this function is used to login with the user's information .
+            here you get your token, from here you can store it .
+            </summary>
+            <param name="username">enter the username , it is obligatory </param>
+            <param name="password">enter the password , it is obligatory </param>
+            <param name="timezone"> User’s timezone ,  not obligatory </param>
+            <param name="device_id">Onesignal Device ID,  not obligatory </param>
+            <returns></returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Global.Get_SocialLogin(SettingsConnecter.Settings,System.String,System.String,System.String)">
+            <summary>
+            Log in the user and get the access token using FB or google.
+            </summary>
+            <param name="access_token">FB or Google access_token</param>
+            <param name="provider">Login site (facebook, google)</param>
+            <param name="google_key">Google API key</param>
+            <returns></returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Global.Get_Delete_Token">
+            <summary>
+            this is used to log out . it returns one element which is api_status .
+            this methods take nothing except the server key .(server key is in current class )
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Global.Get_Reset_Password_Email(SettingsConnecter.Settings,System.String)">
+            <summary>
+            this method is used to change password through email the user.
+            </summary>
+            <param name="email">user's email , obligatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Global.Get_Many_Users_Data(System.String)">
+            <summary>
+            Get mutli users data, for example you can get 20 users data as array in one API call.
+            </summary>
+            <param name="users_ids">Users ids use comma to sepearate between the users ids</param>
+            <returns></returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Global.Follow_Request_Action(System.String,System.Boolean)">
+            <summary>
+            Accpet or decline follow / friends requests.
+            </summary>
+            <param name="user_id">Who to accept or decline?.//obligatory</param>
+            <param name="request_action">Use accpet to accept the follow request, use decline to delete it.//obligatory </param>
+            <returns>Follow_Request_Action_Object</returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Global.Post_Actions(System.String,System.String,System.String)">
+            <summary>
+            Edit or delete a post.
+            </summary>
+            <param name="post_id">The post you want to modify.//obligatory</param>
+            <param name="action">edit,delete,commet,like,dislike,wonder </param>
+            <param name="text">The post’s text.//obligatory if action = edit  </param>
+            <returns></returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Global.Get_Post_Data(System.String,System.String)">
+            <summary>
+            Get any post data.
+            </summary>
+            <param name="post_id">Get the data of this post.//obligatory </param>
+            <param name="fetch"> Choose what you would like to get from the post. //post_data,post_comments,post_wondered_users,post_liked_users// default value is all the type of data related to post</param>
+            <returns>Get_Post_Data_Object</returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Global.Delete_Conversation(System.String)">
+            <summary>
+            Delete chat conversation.
+            </summary>
+            <param name="user_id">User id you want to delete the conversation with. // obligatory</param>
+            <returns>Delete_Conversation_Object</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:WoWonder_API.Requests.Client.Global.Get_General_Data(System.Boolean,System.String,System.String)" -->
+        <member name="M:WoWonder_API.Requests.Client.Global.Get_Create_Account(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            this method is used to create a user. 
+            also it gives you a token.
+            </summary>
+            <param name="username">User’s username ,obligatory </param>
+            <param name="password">User’s password ,obligatory </param>
+            <param name="confirm_password">User’s email ,obligatory	</param>
+            <param name="email">User’s confirm password ,obligatory	</param>
+            <returns></returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Global.Get_User_Data(SettingsConnecter.Settings,System.String,System.String)">
+            <summary>
+            it is used Get any user data.
+            </summary>
+            <param name="Fetch">Choose what you would like to get from the user. such as : user_data,followers,following,liked_pages,joined_groups </param>
+            <param name="user_id">Get the data of this user id.	 it is int type</param>
+            <returns></returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Global.Follow_User(System.String)">
+            <summary>
+            Follow or unfollow a user.
+            </summary>
+            <param name="user_id">Who to follow.//obligatory </param>
+            <returns></returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Global.Block_User(System.String,System.Boolean)">
+            <summary>
+            Block or unblock a user.
+            </summary>
+            <param name="user_id">Who to block or un-block?.//obligatory</param>
+            <param name="block_action">true will block , false will unblock
+            Use block to block the user, use un-block to unblock the user.//obligatory
+            u can not block user twice the server will return invalid.//obligatory</param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:WoWonder_API.Requests.Client.Global.Update_User_Data(SettingsConnecter.Settings,System.Collections.Generic.Dictionary{System.String,System.String})" -->
+        <member name="M:WoWonder_API.Requests.Client.Global.Update_User_Avatar(System.String)">
+            <summary>
+            Used to update User’s profile picture	
+             </summary>
+            <param name="file_path">where the file is located of the image</param>
+            <returns>Update_User_Data_Object</returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Global.Update_User_Cover(System.String)">
+            <summary>
+            used to updated User’s profile avatar	
+            </summary>
+            <param name="file_path">where the file is located of the image</param>
+            <returns>Update_User_Data_Object</returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Global.Get_Blocked_Users">
+            <summary>
+            Get blocked users.
+            </summary>
+            <returns>Get_Blocked_Users_Object</returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Global.Get_User_Suggestions(System.String)">
+            <summary>
+            Get random users to follow, or get users that matchs phone numbers.
+            </summary>
+            <param name="contacts">( param type is json string)Get users that matchs those phone numbers, example: [NUMBER1, NUMBER2].// not obligatory	</param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:WoWonder_API.Requests.Client.Global.Get_Community(SettingsConnecter.Settings,System.String,System.String)" -->
+        <member name="M:WoWonder_API.Requests.Client.Global.Get_Search(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Search for users, pages, groups
+            </summary>
+            <param name="User_id"></param>
+            <param name="search_key">Keyword</param>
+            <param name="limit">Default: 35	</param>
+            <param name="user_offset">Get users before the offset ID	</param>
+            <param name="group_offset">Get groups before the offset ID	</param>
+            <param name="page_offset">Get page before the offset ID</param>
+            <param name="Filter_gender">Filter by gender (male/female)	</param>
+            <returns></returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Global.Get_Activities(System.String,System.String)">
+            <summary>
+            Get latest activities
+            </summary>
+            <param name="limit">Default: 25	</param>
+            <param name="offset">Get activities before the offset ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Global.Delete_User(System.String)">
+            <summary>
+            Delete User Account
+            </summary>
+            <param name="password">User’s Password</param>
+            <returns></returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Global.Get_Categories(SettingsConnecter.Settings)">
+            <summary>
+            Delete User Account
+            </summary>
+            <param name="password">User’s Password</param>
+            <returns></returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Group.Join_Group(System.String)">
+            <summary>
+            Join or leave a group.
+            </summary>
+            <param name="group_id">The group id you want to join/leave //obligatory </param>
+            <returns>Class.Join_Group_Object</returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Group.Get_Group_Data(System.String)">
+            <summary>
+            Get any group data.
+            </summary>
+            <param name="group_id">Get the data of this group. //obligatory.</param>
+            <returns>Get_Group_Data_Object</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:WoWonder_API.Requests.Client.Group.Update_Group_Data(System.String,System.Collections.Generic.Dictionary{System.String,System.String})" -->
+        <member name="M:WoWonder_API.Requests.Client.Group.Update_Group_Avatar(System.String,System.String)">
+            <summary>
+            Used to update Group’s profile picture	
+             </summary>
+            <param name="file_path">where the file is located of the image</param>
+            <returns>Update_Group_Data_Object</returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Group.Update_Group_Cover(System.String,System.String)">
+            <summary>
+            used to updated Group’s profile avatar	
+            </summary>
+            <param name="file_path">where the file is located of the image</param>
+            <returns>Update_Group_Data_Object</returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Group.Create_Group(System.String,System.String,System.String,System.String)">
+            <summary>
+            Create a new group. and get the created group data.
+            </summary>
+            <param name="group_name">Group name without special characters // obligatory</param>
+            <param name="group_title">Group title // obligatory</param>
+            <param name="about"> Group about info // obligatory</param>
+            <param name="category">Category ID // obligatory</param>
+            <returns>Create_Group_Object</returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Market.Create_Product(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+             example for how you can input ur path for PC,
+             string uriPath = "C:\\Users\\Mohamad Developer\\Pictures\\fatih.jpg";
+                  string localPath = new Uri(uriPath).LocalPath;
+                  (int x, var y) = await WoWonder_API.Client.Create_Product("ali", "ali", "ali", "122", "ali", "ali", "as", localPath);
+                   the price vale
+                   note : did not upload the pic // ask ali
+                    </summary>
+            <param name="product_title">Product title, min: 2 letters.// obligatory	</param>
+            <param name="product_description">Product description, min: 2 letters.// obligatory	</param>
+            <param name="product_location">Product location, min: 2 letters.// obligatory	</param>
+            <param name="product_price">Product price must be a number such as : 123456789.// obligatory	</param>
+            <param name="product_category">Product category.// obligatory	</param>
+            <param name="product_type">1 or 0, 1 for used product, 0 for new.// obligatory	</param>
+            <param name="images">Image, (jpg,png,gif,jpeg).// obligatory	</param>
+            <param name="File_Path">where the file is locatted.// obligatory</param>
+            <returns>Class.Create_Product_Object</returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Market.Get_Products(System.String,System.String,System.String,System.String,System.String)">
+            <summary></summary>
+            <param name="user_id">Get the products of this user ID, leave this if you want to get latest products.//not obligatory	</param>
+            <param name="limit">Default: 35	</param>
+            <param name="offset">Get albums before the offset ID.//not obligatory	</param>
+            <param name="category_id">Get the products under this category.//not obligatory	</param>
+            <param name="keyword">Get the products under this category.//not obligatory	</param>
+            <returns></returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Message.Set_Chat_Typing_Status(System.String,System.String)">
+            <summary>
+            Note : the sender and receiver must follow each other . 
+            Set chat “typing…” or remove it from chat.
+            </summary>
+            <param name="user_id">User ID that the user is chatting with// recipient //obligatory.</param>
+            <param name="status">Use typing to show typing message on user’s chat box, use stopped to remove it.//obligatory  , Either typing Or stopped	</param>
+            <returns>Set_chat_Typing_Status_Object</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:WoWonder_API.Requests.Client.Message.Send_Message(System.String,System.String,System.String,System.String,System.String,System.String)" -->
+        <member name="M:WoWonder_API.Requests.Client.Message.Change_Chat_Color(System.String,System.String)">
+            <summary>
+             Change the chat conversation color.
+            </summary>
+            <param name="user_id">User ID that the user is chatting with // obligatory</param>
+            <param name="color">Hex color, example: #ffffff	 // obligatory</param>
+            <returns>Change_Chat_Color_Object</returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Movies.Get_Movies(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Get latest movies.
+            </summary>
+            <param name="limit">Movies Limit//not obligatory </param>
+            <param name="offset">Get movie information for this ID //not obligatory</param>
+            <param name="id">get movies after this ID //not obligatory</param>
+            <param name="genre">get movies under this genre category //not obligatory</param>
+            <param name="country">get movies under this country	//not obligatory</param>
+            <returns>Get_Movies_Object</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:WoWonder_API.Requests.Client.Nearby.Get_Nearby_Users(System.Collections.Generic.Dictionary{System.String,System.String})" -->
+        <member name="M:WoWonder_API.Requests.Client.Page.Like_Page(System.String)">
+            <summary>
+            Like or remove a like from a page.
+            </summary>
+            <param name="page_id">The page id you want to like/dislike.//obligatory	</param>
+            <returns>//Class.API_like_page//</returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Page.Get_Page_Data(System.String)">
+            <summary>
+            Get any page data.
+            </summary>
+            <param name="page_id">Get the data of this page.//obligatory</param>
+            <returns>Get_Page_Data_Object</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:WoWonder_API.Requests.Client.Page.Update_Page_Data(System.String,System.Collections.Generic.Dictionary{System.String,System.String})" -->
+        <member name="M:WoWonder_API.Requests.Client.Page.Update_Page_Avatar(System.String,System.String)">
+            <summary>
+            Used to update page’s profile picture	
+             </summary>
+            <param name="file_path">where the file is located of the image</param>
+            <returns>Update_Page_data_Object</returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Page.Update_Page_Cover(System.String,System.String)">
+            <summary>
+            Used to update page’s profile picture	
+             </summary>
+            <param name="file_path">where the file is located of the image</param>
+            <returns>Update_Page_data_Object</returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Page.Create_Page(System.String,System.String,System.String,System.String)">
+            <summary>
+            Update page data, avatar, cover, general settings, privacy and a lot more.
+            </summary>
+            <param name="page_name">Page name without special characters.// obligatory</param>
+            <param name="page_title"> Page title. // obligatory</param>
+            <param name="page_category"> Page about info.// obligatory</param>
+            <param name="page_description"> Category ID.// obligatory</param>
+            <returns>Create_Page_Object</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:WoWonder_API.Requests.Client.Story.Create_Story(System.String,System.String,System.String,System.String)" -->
+        <member name="M:WoWonder_API.Requests.Client.Story.Delete_Story(System.String)">
+            <summary>
+            Delete user story/status.
+            </summary>
+            <param name="story_id">Story ID that will be deleted. Obligatory</param>
+            <returns>Delete_Story_Object</returns>
+        </member>
+        <member name="M:WoWonder_API.Requests.Client.Story.Get_Stories(System.String)">
+            <summary>
+            Get latest friends stories.
+            </summary>
+            <param name="limit">Default value : 25	number of returned stories. //not obligatory </param>
+            <returns>Get_Stories_Object</returns>
+        </member>
+    </members>
+</doc>

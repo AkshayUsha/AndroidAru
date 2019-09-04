@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+  <android.support.design.widget.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    <android.support.v7.widget.Toolbar
+      android:id="@+id/Searchtoolbar"
+      app:title="@string/Lbl_Invite_Friends"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      app:titleTextAppearance="@style/Toolbar.TitleText"
+      android:background="@drawable/linear_gradient_drawable">
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Lbl_Create"
+        android:layout_gravity="end"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_marginEnd="12dp"
+        android:id="@+id/toolbar_title" />
+    </android.support.v7.widget.Toolbar>
+  </android.support.design.widget.AppBarLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/InviteFriends_Recylerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="0dp"
+            android:scrollbars="vertical"
+            android:layout_marginEnd="-5dp"/>
+    </RelativeLayout>
+</LinearLayout>
